@@ -1,0 +1,7 @@
+**/__pycache__
+*.pyd
+*.__pycache__
+*.egg-info
+
+*_old.py
+*_personal.md
