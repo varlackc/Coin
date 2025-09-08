@@ -16,3 +16,15 @@ class Coin:
     
     def set_face(self, value: str):
         self.face = value
+        
+    def get_head(self):
+        return self.head
+    
+    def set_head(self, head: str):
+        self.head = head
+        
+    def get_tails(self):
+        return self.tail
+    
+    def set_tails(self, tails):
+        self.tail = tails
