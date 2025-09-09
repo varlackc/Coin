@@ -1,8 +1,29 @@
-from . import coin
+
 
 class CoinSet:
     def __init__(self):
         self.coin_collection = []
         self.coin_faces = []
         self.coin_total_value = 0
+        
+    def add_coin(self, coin):
+        self.coin_collection.append(coin)
+        
+    def add_coins(self, coins):
+        for i in range(len(coins)):
+            self.coin_collection.append(coins[i])
+        
+    def get_faces(self):
+        # reset the coin faces
+        self.coin_faces = []
+        for face in self.coin_collection:
+            self.coin_faces.append(face.get_face())
+        return self.coin_faces
+    
+    def flip(self):
+        # reset the coin faces
+        self.coin_faces = []
+        for coin in self.coin_collection:
+            self.coin_faces.append(coin.flip())
+        return self.coin_faces
         
