@@ -29,3 +29,14 @@ class TestCoin(unittest.TestCase):
         coin = Coin()
         coin.set_tails("T")
         self.assertEqual(coin.get_tails(), "T")
+        
+    def test_coin_set_coin(self):
+        coin = Coin()
+        coin.set_coin("H", "T")
+        self.assertEqual([coin.get_head(), coin.get_tails()], ["H","T"])
+    
+    def test_coin_get_coin(self):
+        coin = Coin()
+        coin.set_coin("H", "T")
+        self.assertEqual(coin.get_coin(), ["H", "T"])
+        
