@@ -27,3 +27,4 @@ class CoinSet:
             self.coin_faces.append(coin.flip())
         return self.coin_faces
         
+    
