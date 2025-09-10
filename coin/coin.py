@@ -28,3 +28,11 @@ class Coin:
     
     def set_tails(self, tails):
         self.tail = tails
+        
+    def set_coin(self, head, tail):
+        self.head = head
+        self.tail = tail
+        self.face = self.head
+        
+    def get_coin(self):
+        return [self.head, self.tail]
