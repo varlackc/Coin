@@ -24,3 +24,5 @@ or
 or 
 
 `python -m unittest discover -s tests -p 'test_*.py'`
+
+In order to learn how to use the `coin` project it is recommended that you read the `documentation` section of the project.
