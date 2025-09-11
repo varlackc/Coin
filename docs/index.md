@@ -35,7 +35,20 @@ coin_A.set_head("H")
 
 In order to view the actual value of the head we can use the following command:
 
-```
+```python
 result = coin_A.get_head()
 print(f"the modified head looks as follows: {result}")
+```
+
+We can use a similar process to modify the tails values. We can modify the tails values using a similar process to the following example:
+
+```
+coin_A.set_tails("T")
+```
+
+In order to see the value of the tails we can use the following command:
+
+```
+result = coin_A.get_tails()
+print(f"the modified tails looks as follows: {result}")
 ```
