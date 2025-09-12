@@ -48,7 +48,33 @@ coin_A.set_tails("T")
 
 In order to see the value of the tails we can use the following command:
 
-```
+```python
 result = coin_A.get_tails()
 print(f"the modified tails looks as follows: {result}")
 ```
+
+We also have the ability to have entire sets of coins. In order to use multiple coins we will have to declare a coin set and declare the individual coins. Then the coins can be added either individually or as a group.
+
+The following example shows how the coins can be added individually:
+
+```python
+from coin import Coin, CoinSet
+coin_A = Coin()
+coin_B = Coin()
+coin_set_A = CoinSet()
+
+coin_set_A.add_coin(coin_A)
+coin_set_A.add_coin(coin_B)
+```
+
+There is however a better way to add coins to a coin set. We can use the `add_coins` to add a list of coins all at once.
+
+```python
+from coin import Coin, CoinSet
+coin_A = Coin()
+coin_B = Coin()
+coin_set_A = CoinSet()
+
+coin_set_A.add_coins([coin_A, coin_B])
+```
+
