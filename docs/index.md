@@ -77,4 +77,3 @@ coin_set_A = CoinSet()
 
 coin_set_A.add_coins([coin_A, coin_B])
 ```
-
