@@ -5,7 +5,7 @@ class Coin:
         self.face = "Head"
         self.head = "Head"
         self.tail = "Tails"
-        self.value = "$25"
+        self.value = "$0.25"
     
     def flip(self):
         self.face = random.choice([self.head, self.tail])
