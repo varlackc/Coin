@@ -19,6 +19,12 @@ class TestCoinSet(unittest.TestCase):
     def test_CoinSet_flip(self):
         self.assertIsNotNone(CoinSet().coin_collection)
         
-    def test_coinset_get_face(self):
+    def test_coinset_get_faces(self):
         self.assertIsNotNone(CoinSet().get_faces())
+        
+    def test_coinset_set_face(self):
+        coin_A = Coin()
+        coin_B = Coin()
+        coin_set_A = CoinSet()
+        self.assertEqual(coin_set_A.set_faces(["H", "H"]), ["H", "H"])
         
