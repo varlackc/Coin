@@ -20,6 +20,13 @@ class CoinSet:
             self.coin_faces.append(face.get_face())
         return self.coin_faces
     
+    def set_faces(self, dice_faces):
+        self.coin_faces = []
+        for face in dice_faces:
+            self.coin_faces.append(face)
+        return self.coin_faces
+        
+    
     def flip(self):
         # reset the coin faces
         self.coin_faces = []
