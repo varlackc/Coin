@@ -77,3 +77,9 @@ coin_set_A = CoinSet()
 
 coin_set_A.add_coins([coin_A, coin_B])
 ```
+
+We can see the faces of the coins held in the `CoinSet` by using the `get_faces` method as shown in the next section:
+
+```
+coin_set_A.get_faces()
+```
