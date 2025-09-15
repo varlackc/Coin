@@ -14,6 +14,7 @@ class Coin:
         return str(self.face)
     
     def get_face(self):
+        # This method is used to get the face value on the coin
         return str(self.face)
     
     def set_face(self, value: str):
