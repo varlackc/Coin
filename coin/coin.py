@@ -18,6 +18,7 @@ class Coin:
         return str(self.face)
     
     def set_face(self, value: str):
+        # This method is used to change the face value on the coin
         self.face = value
         
     def get_head(self):
