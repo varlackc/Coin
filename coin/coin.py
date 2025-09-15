@@ -9,6 +9,7 @@ class Coin:
         self.value = "$0.25"
     
     def flip(self):
+        # This method is used to flip coins
         self.face = random.choice([self.head, self.tail])
         return str(self.face)
     
