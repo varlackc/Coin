@@ -7,6 +7,7 @@ class CoinSet:
         self.coin_total_value = 0
         
     def add_coin(self, coin):
+        # add a single coint to the coin set
         self.coin_collection.append(coin)
         
     def add_coins(self, coins):
