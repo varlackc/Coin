@@ -38,6 +38,7 @@ class Coin:
         self.tail = tails
         
     def set_coin(self, head, tail):
+        # set the head and tail values to a coin in one method
         self.head = head
         self.tail = tail
         self.face = self.head
