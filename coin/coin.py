@@ -30,6 +30,7 @@ class Coin:
         self.head = head
         
     def get_tails(self):
+        # This method shows the cointent of the tails value
         return self.tail
     
     def set_tails(self, tails):
