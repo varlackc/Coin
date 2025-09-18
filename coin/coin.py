@@ -34,6 +34,7 @@ class Coin:
         return self.tail
     
     def set_tails(self, tails):
+        # this method sets a value for the tails of the coin
         self.tail = tails
         
     def set_coin(self, head, tail):
