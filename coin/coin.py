@@ -2,6 +2,9 @@ import random
 
 
 class Coin:
+    """
+    Section to represent individual coins
+    """
     def __init__(self):
         self.face = "Head"
         self.head = "Head"
