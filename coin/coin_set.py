@@ -25,6 +25,7 @@ class CoinSet:
         return self.coin_faces
     
     def set_faces(self, dice_faces):
+        # assign value to the faces of multiple coins
         self.coin_faces = []
         for face in dice_faces:
             self.coin_faces.append(face)
