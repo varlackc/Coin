@@ -83,3 +83,9 @@ We can see the faces of the coins held in the `CoinSet` by using the `get_faces`
 ```
 coin_set_A.get_faces()
 ```
+
+We can also set the faces of multiple coins using the `set_faces` method.
+
+```
+coin_set_A.set_faces(["H","H"])
+```
