@@ -89,3 +89,9 @@ We can also set the faces of multiple coins using the `set_faces` method.
 ```
 coin_set_A.set_faces(["H","H"])
 ```
+
+In addition we can also flip multiple coins in one instance using the `flip` method.
+
+```
+coin_set_A.flip()
+```
