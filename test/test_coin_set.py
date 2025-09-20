@@ -3,6 +3,11 @@ from coin import CoinSet, Coin
 
 
 class TestCoinSet(unittest.TestCase):
+    """Tests for the CoinSet class
+
+    Args:
+        unittest (_type_): _description_
+    """
     def test_CoinSet_add_coin(self):
         c1 = Coin()
         cs = CoinSet()
