@@ -26,6 +26,8 @@ class TestCoin(unittest.TestCase):
         self.assertEqual(coin.get_face(), "Head")
         
     def test_coin_get_head(self):
+        # test to verify that the head value
+        # provides an output
         self.assertIsNotNone(Coin().get_head())
  
     def test_coin_set_head(self):
