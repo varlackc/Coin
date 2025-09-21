@@ -9,6 +9,8 @@ class TestCoin(unittest.TestCase):
         unittest (_type_): _description_
     """
     def test_coin_flip(self):
+        # test to verify that output is provided
+        # after fliping a coing
         self.assertIsNotNone(Coin().flip())
     
     def test_coin_get_face(self):
