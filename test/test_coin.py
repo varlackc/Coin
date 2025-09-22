@@ -50,6 +50,8 @@ class TestCoin(unittest.TestCase):
         self.assertEqual(coin.get_tails(), "T")
         
     def test_coin_set_coin(self):
+        # test to verify that the coin value
+        # can be set
         coin = Coin()
         coin.set_coin("H", "T")
         self.assertEqual([coin.get_head(), coin.get_tails()], ["H","T"])
