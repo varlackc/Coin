@@ -1,3 +1,9 @@
+"""
+Program: Coin
+Author: Maxwell Varlack
+Description: This program is used to represent
+the behaviour of coins and to simulate coin operations.
+"""
 import random
 
 
