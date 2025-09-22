@@ -9,6 +9,8 @@ class TestCoinSet(unittest.TestCase):
         unittest (_type_): _description_
     """
     def test_CoinSet_add_coin(self):
+        # test to verify that the
+        # coin value can be added
         c1 = Coin()
         cs = CoinSet()
         cs.add_coin(c1)
