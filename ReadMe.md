@@ -1,4 +1,4 @@
-# Documentation for the Coin Project
+# ⛃ Coin Project
 ---
 
 The purpose of the coin project is to facilitate the process of fliping coins.
