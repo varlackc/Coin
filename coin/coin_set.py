@@ -1,3 +1,10 @@
+"""
+Program: Coin_set
+Author: Maxwell Varlack
+Description: This program is used to represent
+the behaviour of multiple coins and to simulate 
+coin operations on a set of coins.
+"""
 
 
 class CoinSet:
