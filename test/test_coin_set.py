@@ -1,3 +1,9 @@
+"""
+Program: Test Coin Set
+Author: Maxwell Varlack
+Description: This program is used to 
+Test the Coin Set class.
+"""
 import unittest
 from coin import CoinSet, Coin
 
