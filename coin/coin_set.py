@@ -8,7 +8,8 @@ coin operations on a set of coins.
 
 
 class CoinSet:
-    """This class is used to hold multiple coins and make operations on the coins
+    """
+    This class is used to hold multiple coins and make operations on the coins
     """
     def __init__(self):
         self.coin_collection = []
