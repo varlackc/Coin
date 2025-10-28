@@ -12,10 +12,10 @@ class Coin:
     Section to represent individual coins
     """
     def __init__(self):
-        self.face = "Head"
-        self.head = "Head"
-        self.tail = "Tails"
-        self.value = "$0.25"
+        self.face:str = "Head"
+        self.head:str = "Head"
+        self.tail:str = "Tails"
+        self.value:str = "$0.25"
     
     def flip(self):
         # This method is used to flip coins
