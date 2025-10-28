@@ -9,7 +9,8 @@ from coin import CoinSet, Coin
 
 
 class TestCoinSet(unittest.TestCase):
-    """Tests for the CoinSet class
+    """
+    Tests for the CoinSet class
 
     Args:
         unittest (_type_): _description_
