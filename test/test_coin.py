@@ -30,8 +30,10 @@ class TestCoin(unittest.TestCase):
         self.assertIsNotNone(Coin().get_face())
     
     def test_coin_set_face(self):
-        # test to verify that the face value
-        # is set properly
+        """
+        test to verify that the face value
+        is set properly
+        """
         coin = Coin()
         coin.set_face("Head")
         self.assertEqual(coin.get_face(), "Head")
