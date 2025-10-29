@@ -23,8 +23,10 @@ class TestCoin(unittest.TestCase):
         self.assertIsNotNone(Coin().flip())
     
     def test_coin_get_face(self):
-        # test to verify that output is given
-        # after getting the face of the coin
+        """
+        test to verify that output is given
+        after getting the face of the coin
+        """
         self.assertIsNotNone(Coin().get_face())
     
     def test_coin_set_face(self):
