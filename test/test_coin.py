@@ -55,8 +55,10 @@ class TestCoin(unittest.TestCase):
         self.assertIsNotNone(coin.get_head())
         
     def test_coin_get_tails(self):
-        # test to verify that the tails value
-        # can be modified
+        """
+        test to verify that the tails value
+        can be modified
+        """
         self.assertIsNotNone(Coin().get_tails())
     
     def test_coin_set_tails(self):
