@@ -36,7 +36,7 @@ class Coin:
     
     def set_head(self, head: str):
         # This method is used to assign the value in the head section of the coin
-        self.head = head
+        self.head:str = head
         
     def get_tails(self):
         # This method shows the cointent of the tails value
