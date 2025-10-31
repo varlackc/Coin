@@ -12,9 +12,9 @@ class CoinSet:
     This class is used to hold multiple coins and make operations on the coins
     """
     def __init__(self):
-        self.coin_collection = []
-        self.coin_faces = []
-        self.coin_total_value = 0
+        self.coin_collection:list = []
+        self.coin_faces:list = []
+        self.coin_total_value:int = 0
         
     def add_coin(self, coin):
         # add a single coin to the coin set
