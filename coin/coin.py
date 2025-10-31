@@ -48,9 +48,9 @@ class Coin:
         
     def set_coin(self, head, tail):
         # set the head and tail values to a coin in one method
-        self.head = head
-        self.tail = tail
-        self.face = self.head
+        self.head:str = head
+        self.tail:str = tail
+        self.face:str = self.head
         
     def get_coin(self):
         # get the head and tail values in a given coin
