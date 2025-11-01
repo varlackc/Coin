@@ -41,7 +41,7 @@ class CoinSet:
     
     def flip(self):
         # reset the coin faces
-        self.coin_faces = []
+        self.coin_faces:list = []
         for coin in self.coin_collection:
             self.coin_faces.append(coin.flip())
         return self.coin_faces
