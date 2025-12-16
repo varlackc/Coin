@@ -37,7 +37,9 @@ class Coin:
         self.face:str = value
         
     def get_head(self):
-        # This method is used to get the value in the head section of the coin
+        """
+        This method is used to get the value in the head section of the coin
+        """
         return self.head
     
     def set_head(self, head: str):
