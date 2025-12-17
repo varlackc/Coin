@@ -69,5 +69,7 @@ class Coin:
         self.face:str = self.head
         
     def get_coin(self):
-        # get the head and tail values in a given coin
+        """
+        Get the head and tail values in a given coin
+        """
         return [self.head, self.tail]
