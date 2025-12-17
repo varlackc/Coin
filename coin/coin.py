@@ -43,7 +43,9 @@ class Coin:
         return self.head
     
     def set_head(self, head: str):
-        # This method is used to assign the value in the head section of the coin
+        """
+        This method is used to assign the value in the head section of the coin
+        """
         self.head:str = head
         
     def get_tails(self):
