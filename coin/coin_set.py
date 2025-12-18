@@ -20,7 +20,9 @@ class CoinSet:
         self.coin_total_value:int = 0
         
     def add_coin(self, coin):
-        # add a single coin to the coin set
+        """
+        Add a single coin to the coin set
+        """
         self.coin_collection.append(coin)
         
     def add_coins(self, coins):
