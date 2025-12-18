@@ -33,7 +33,9 @@ class CoinSet:
             self.coin_collection.append(coins[i])
         
     def get_faces(self):
-        # reset the coin faces
+        """
+        Reset the coin faces
+        """
         self.coin_faces:list = []
         for face in self.coin_collection:
             self.coin_faces.append(face.get_face())
