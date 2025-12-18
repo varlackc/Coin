@@ -11,7 +11,7 @@ class CoinSet:
     """
     This class is used to hold multiple coins and make operations on the coins
     """
-    def __init__(self):
+    def __init__(self) -> any:
         self.coin_collection:list = []
         self.coin_faces:list = []
         self.coin_total_value:int = 0
