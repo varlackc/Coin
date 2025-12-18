@@ -26,7 +26,9 @@ class CoinSet:
         self.coin_collection.append(coin)
         
     def add_coins(self, coins):
-        # add multiple coins to the coin set
+        """
+        Add multiple coins to the coin set
+        """
         for i in range(len(coins)):
             self.coin_collection.append(coins[i])
         
