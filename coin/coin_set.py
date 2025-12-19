@@ -25,7 +25,7 @@ class CoinSet:
         """
         self.coin_collection.append(coin)
         
-    def add_coins(self, coins):
+    def add_coins(self, coins: any) -> None:
         """
         Add multiple coins to the coin set
         """
