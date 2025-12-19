@@ -19,7 +19,7 @@ class CoinSet:
         self.coin_faces:list = []
         self.coin_total_value:int = 0
         
-    def add_coin(self, coin):
+    def add_coin(self, coin: any) -> None:
         """
         Add a single coin to the coin set
         """
