@@ -42,7 +42,9 @@ class CoinSet:
         return self.coin_faces
     
     def set_faces(self, faces):
-        # assign value to the faces of multiple coins
+        """
+        Assign value to the faces of multiple coins
+        """
         self.coin_faces:list = []
         for face in faces:
             self.coin_faces.append(face)
