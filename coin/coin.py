@@ -17,7 +17,7 @@ class Coin:
         self.tail:str = "Tails"
         self.value:str = "$0.25"
     
-    def flip(self):
+    def flip(self) -> str:
         """
         This method is used to flip coins
         """
