@@ -24,7 +24,7 @@ class Coin:
         self.face = random.choice([self.head, self.tail])
         return str(self.face)
     
-    def get_face(self):
+    def get_face(self) -> str:
         """
         This method is used to get the face value on the coin
         """
