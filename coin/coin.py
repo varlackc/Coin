@@ -30,7 +30,7 @@ class Coin:
         """
         return str(self.face)
     
-    def set_face(self, value: str):
+    def set_face(self, value: str) -> None:
         """
         This method is used to change the face value on the coin
         """
