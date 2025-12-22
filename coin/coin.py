@@ -11,7 +11,7 @@ class Coin:
     """
     Section to represent individual coins
     """
-    def __init__(self):
+    def __init__(self) -> None:
         self.face:str = "Head"
         self.head:str = "Head"
         self.tail:str = "Tails"
