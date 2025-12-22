@@ -42,7 +42,7 @@ class Coin:
         """
         return self.head
     
-    def set_head(self, head: str):
+    def set_head(self, head: str) -> None:
         """
         This method is used to assign the value in the head section of the coin
         """
