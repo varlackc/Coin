@@ -50,7 +50,7 @@ class CoinSet:
             self.coin_faces.append(face)
         return self.coin_faces
     
-    def flip(self):
+    def flip(self) -> list:
         """
         Reset the coin faces
         """
