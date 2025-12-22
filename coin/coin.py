@@ -54,7 +54,7 @@ class Coin:
         """
         return self.tail
     
-    def set_tails(self, tails):
+    def set_tails(self, tails: any) -> None:
         """
         This method sets a value for the tails of the coin
         """
