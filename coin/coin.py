@@ -48,7 +48,7 @@ class Coin:
         """
         self.head:str = head
         
-    def get_tails(self):
+    def get_tails(self) -> str:
         """
         This method shows the cointent of the tails value
         """
