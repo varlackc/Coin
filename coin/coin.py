@@ -60,7 +60,7 @@ class Coin:
         """
         self.tail:str = tails
         
-    def set_coin(self, head, tail):
+    def set_coin(self, head: any, tail: any) -> None:
         """
         Set the head and tail values to a coin in one method
         """
