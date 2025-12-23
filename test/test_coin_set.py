@@ -37,6 +37,10 @@ class TestCoinSet(unittest.TestCase):
         self.assertGreater(len(cs.coin_collection), 1)
 
     def test_CoinSet_flip(self):
+        """
+        test to verify that the
+        coins could be flipped
+        """
         self.assertIsNotNone(CoinSet().coin_collection)
         
     def test_coinset_get_faces(self):
