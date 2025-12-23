@@ -26,6 +26,10 @@ class TestCoinSet(unittest.TestCase):
         self.assertGreater(len(cs.coin_collection), 0)
         
     def test_CoinSet_add_coins(self):
+        """
+        test to verify that multiple
+        coins could be added
+        """
         c1 = Coin()
         c2 = Coin()
         cs = CoinSet()
