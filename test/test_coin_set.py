@@ -15,7 +15,7 @@ class TestCoinSet(unittest.TestCase):
     Args:
         unittest (_type_): _description_
     """
-    def test_CoinSet_add_coin(self):
+    def test_CoinSet_add_coin(self) -> None:
         """
         test to verify that the
         coin value can be added
