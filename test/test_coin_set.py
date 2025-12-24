@@ -36,7 +36,7 @@ class TestCoinSet(unittest.TestCase):
         cs.add_coins([c1, c2])
         self.assertGreater(len(cs.coin_collection), 1)
 
-    def test_CoinSet_flip(self):
+    def test_CoinSet_flip(self) -> None:
         """
         test to verify that the
         coins could be flipped
