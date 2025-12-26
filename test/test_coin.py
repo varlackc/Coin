@@ -15,7 +15,7 @@ class TestCoin(unittest.TestCase):
     Args:
         unittest (_type_): _description_
     """
-    def test_coin_flip(self):
+    def test_coin_flip(self) -> None:
         """
         test to verify that output is provided
         after fliping a coing
