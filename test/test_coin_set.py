@@ -50,7 +50,7 @@ class TestCoinSet(unittest.TestCase):
         """
         self.assertIsNotNone(CoinSet().get_faces())
         
-    def test_coinset_set_face(self):
+    def test_coinset_set_face(self) -> None:
         """
         Docstring for test_coinset_set_face
         :param self: test to verify that the face of the coinset can be assigned
