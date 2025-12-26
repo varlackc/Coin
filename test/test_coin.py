@@ -22,7 +22,7 @@ class TestCoin(unittest.TestCase):
         """
         self.assertIsNotNone(Coin().flip())
     
-    def test_coin_get_face(self):
+    def test_coin_get_face(self) -> None:
         """
         test to verify that output is given
         after getting the face of the coin
