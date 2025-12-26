@@ -29,7 +29,7 @@ class TestCoin(unittest.TestCase):
         """
         self.assertIsNotNone(Coin().get_face())
     
-    def test_coin_set_face(self):
+    def test_coin_set_face(self) -> None:
         """
         test to verify that the face value
         is set properly
