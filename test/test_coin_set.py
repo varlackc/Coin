@@ -43,7 +43,7 @@ class TestCoinSet(unittest.TestCase):
         """
         self.assertIsNotNone(CoinSet().coin_collection)
         
-    def test_coinset_get_faces(self):
+    def test_coinset_get_faces(self) -> None:
         """
         test to verify that the faces for
         the coinset could be aquired.
