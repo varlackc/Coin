@@ -38,7 +38,7 @@ class TestCoin(unittest.TestCase):
         coin.set_face("Head")
         self.assertEqual(coin.get_face(), "Head")
         
-    def test_coin_get_head(self):
+    def test_coin_get_head(self) -> None:
         """
         test to verify that the head value
         provides an output
