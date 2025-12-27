@@ -45,7 +45,7 @@ class TestCoin(unittest.TestCase):
         """
         self.assertIsNotNone(Coin().get_head())
  
-    def test_coin_set_head(self):
+    def test_coin_set_head(self) -> None:
         """
         test to verify that the head value
         can be modified
