@@ -79,7 +79,7 @@ class TestCoin(unittest.TestCase):
         coin.set_coin("H", "T")
         self.assertEqual([coin.get_head(), coin.get_tails()], ["H","T"])
     
-    def test_coin_get_coin(self):
+    def test_coin_get_coin(self) -> None:
         """
         test to verify that the coin value
         can be reached
